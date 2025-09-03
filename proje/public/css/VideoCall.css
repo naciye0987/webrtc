@@ -1,0 +1,27 @@
+.video-call-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#localVideo, #remoteVideo {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    background: #000;
+}
+
+#callButton {
+    padding: 10px 20px;
+    margin: 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#callButton:hover {
+    background: #45a049;
+} 

@@ -1,0 +1,18 @@
+.video-call-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.local-video {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+.remote-video {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+} 
